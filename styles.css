@@ -1,0 +1,77 @@
+body {
+    position: relative;
+    background-color: hsl(212, 45%, 89%);
+    font-family: outfit, Arial, Helvetica, sans-serif;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    translate: -50% -50%;
+    width: 262.5px;
+    border-radius: 15px;
+    
+    background-color: white;
+    box-shadow:  0 7px 150px 5px rgba(0, 0, 0, 0.15);
+}
+
+#attribution {
+    position: absolute;
+    bottom: 10px;
+    font-size: 11px; text-align: center; 
+    color: hsl(228, 45%, 44%); 
+}
+
+#qr-code-div {
+    align-self: center;
+}
+
+#qr-code {
+    height: 240px;
+    width: 237.5px;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+#description {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: hsl(218, 44%, 22%);
+
+    width: 210px;
+    margin-bottom: -20px;
+    margin-top: -5px;
+}
+
+#instructions {
+    text-align: center;
+    font-weight: 350;
+    font-size: 13px;
+    color: hsl(216, 15%, 48%);
+
+    width: 210px;
+    margin-bottom: 15px;
+}   
+
+#attribution {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+
+    z-index: 1000;
+    color: white;
+}
+
+a {
+    color: lightblue;
+}
+
