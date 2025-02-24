@@ -53,7 +53,6 @@ Refer to the sytle-guide.md for colors, fonts, and layout help.
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - Traditional workflow 
 
@@ -72,6 +71,7 @@ I could still use some work mastering styling using HTML and CSS. I have the bas
 ## Author
 
 - Frontend Mentor - [@hgb0043](https://www.frontendmentor.io/profile/yourusername)
+- LinkedIn - []
 - Twitter - [@hgblackstone](https://www.x.com/hgblackstone)
 
 
