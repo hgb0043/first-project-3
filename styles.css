@@ -20,14 +20,7 @@ body {
     
     background-color: white;
     box-shadow:  0 7px 150px 5px rgba(0, 0, 0, 0.15);
-}
-
-#attribution {
-    position: absolute;
-    bottom: 10px;
-    font-size: 11px; text-align: center; 
-    color: hsl(228, 45%, 44%); 
-}
+}  
 
 #qr-code-div {
     align-self: center;
@@ -49,7 +42,7 @@ body {
 
     width: 210px;
     margin-bottom: -20px;
-    margin-top: -5px;
+    margin-top: -3px;
 }
 
 #instructions {
@@ -68,7 +61,9 @@ body {
     left: 20px;
 
     z-index: 1000;
-    color: white;
+    color: white; 
+}
+    
 }
 
 a {
